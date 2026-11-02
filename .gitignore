@@ -1,0 +1,21 @@
+# Data — never commit raw datasets
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Model artifacts
+*.pkl
+*.joblib
+mlruns/
